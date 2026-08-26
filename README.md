@@ -13,6 +13,8 @@
 ## Featured
 
 - [claude-code-monorepo](https://github.com/milosCvetkovicDev/claude-code-monorepo) — the real, sanitized Claude Code configuration behind that platform: 71 skills, 34 hooks, 31 agents, 172 memories, one full epic walkthrough.
+  - [Loop engineering, in practice](https://github.com/milosCvetkovicDev/claude-code-monorepo/blob/main/docs/loop-engineering.md) — six primitives mapped to the concrete tools that enforce them.
+  - [How it was sanitized](https://github.com/milosCvetkovicDev/claude-code-monorepo/blob/main/SANITIZATION.md) — six adversarial audit rounds; each found a class the previous round's method could not see.
 
 ## Elsewhere
 
