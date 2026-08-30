@@ -12,13 +12,14 @@
 
 ## Featured
 
-- [claude-code-monorepo](https://github.com/milosCvetkovicDev/claude-code-monorepo) — the real, sanitized Claude Code configuration behind that platform: 71 skills, 34 hooks, 31 agents, 172 memories, one full epic walkthrough.
-  - [Loop engineering, in practice](https://github.com/milosCvetkovicDev/claude-code-monorepo/blob/main/docs/loop-engineering.md) — six primitives mapped to the concrete tools that enforce them.
-  - [How it was sanitized](https://github.com/milosCvetkovicDev/claude-code-monorepo/blob/main/SANITIZATION.md) — six adversarial audit rounds; each found a class the previous round's method could not see.
+- [claude-code-monorepo](https://github.com/milosCvetkovicDev/claude-code-monorepo) · **[read it online](https://miloscvetkovicdev.github.io/claude-code-monorepo/)** — the real, sanitized Claude Code configuration behind that platform, written up as a 13-chapter book: 71 skills, 34 hooks, 31 agents, 172 memories, one full epic walkthrough.
+  - [Loops, not prompts](https://miloscvetkovicdev.github.io/claude-code-monorepo/book/02-loops-not-prompts/) — six primitives mapped to the concrete tools that enforce them.
+  - [An epic, start to finish](https://miloscvetkovicdev.github.io/claude-code-monorepo/book/11-an-epic-start-to-finish/) — one initiative from PRD to verified-green, including the pilot that found three defects in its own test baseline.
+  - [How it was sanitized](https://miloscvetkovicdev.github.io/claude-code-monorepo/sanitization/) — six adversarial audit rounds; each found a class the previous round's method could not see.
 
-- [football-trackers](https://github.com/milosCvetkovicDev/football-trackers) — a DIY real-time GPS tracking system for youth football, built end to end as a personal project: ESP32+GNSS wearables → authenticated MQTT → Bun/Elysia ingest → live coach view on a React canvas, plus an offline CV subproject. Privacy-first by construction — pseudonymous ids on the wire and at rest, per-player erasure that also rewrites every backup and proves it by re-count.
+- [football-trackers](https://github.com/milosCvetkovicDev/football-trackers) · **[docs online](https://miloscvetkovicdev.github.io/football-trackers/)** — a DIY real-time GPS tracking system for youth football, built end to end as a personal project: ESP32+GNSS wearables → authenticated MQTT → Bun/Elysia ingest → live coach view on a React canvas, plus an offline CV subproject. Privacy-first by construction — pseudonymous ids on the wire and at rest, per-player erasure that also rewrites every backup and proves it by re-count.
   - [How this is built](https://github.com/milosCvetkovicDev/football-trackers#how-this-is-built) — 25 cross-referenced ADRs; 32-suite server gate behind a runner that cannot silently shrink; Playwright e2e across five self-contained stacks driven by a simulated device fleet (no hardware, no mocks); static posture guards that fail CI if a deploy stack drifts.
-  - [Decision records](https://github.com/milosCvetkovicDev/football-trackers/tree/main/docs/decisions) — from transport choice and MQTT security to location-data retention and right-to-erasure.
+  - [Decision records](https://miloscvetkovicdev.github.io/football-trackers/docs/decisions/) — from transport choice and MQTT security to location-data retention and right-to-erasure.
 
 ## Elsewhere
 
