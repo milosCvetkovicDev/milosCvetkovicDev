@@ -16,6 +16,10 @@
   - [Loop engineering, in practice](https://github.com/milosCvetkovicDev/claude-code-monorepo/blob/main/docs/loop-engineering.md) — six primitives mapped to the concrete tools that enforce them.
   - [How it was sanitized](https://github.com/milosCvetkovicDev/claude-code-monorepo/blob/main/SANITIZATION.md) — six adversarial audit rounds; each found a class the previous round's method could not see.
 
+- [football-trackers](https://github.com/milosCvetkovicDev/football-trackers) — a DIY real-time GPS tracking system for youth football, built end to end as a personal project: ESP32+GNSS wearables → authenticated MQTT → Bun/Elysia ingest → live coach view on a React canvas, plus an offline CV subproject. Privacy-first by construction — pseudonymous ids on the wire and at rest, per-player erasure that also rewrites every backup and proves it by re-count.
+  - [How this is built](https://github.com/milosCvetkovicDev/football-trackers#how-this-is-built) — 25 cross-referenced ADRs; 32-suite server gate behind a runner that cannot silently shrink; Playwright e2e across five self-contained stacks driven by a simulated device fleet (no hardware, no mocks); static posture guards that fail CI if a deploy stack drifts.
+  - [Decision records](https://github.com/milosCvetkovicDev/football-trackers/tree/main/docs/decisions) — from transport choice and MQTT security to location-data retention and right-to-erasure.
+
 ## Elsewhere
 
 [LinkedIn](https://linkedin.com/in/milos-cvetkovic-dev) · cvetkovicmilos@gmail.com
