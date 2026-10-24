@@ -12,6 +12,10 @@
 
 ## Featured
 
+- [panlode](https://github.com/milosCvetkovicDev/panlode) · **[docs online](https://miloscvetkovicdev.github.io/panlode/)** — evidence before code: a Claude Code plugin and workspace that validates startup ideas before anything is built. Subagents read public forums, review sites and job boards for customer pain; every signal keeps its source link and an evidence score, and each idea runs one cheap experiment at a time (at most 100 € and 14 days) that ends in continue, pivot or kill. Plain Markdown in git, checked on every write by a dependency-free Python engine wired into four Claude Code hooks.
+  - [A real run](https://github.com/milosCvetkovicDev/panlode/tree/main/examples/first-scout-run) — 19 candidates, 16 signals, three clusters, and no idea yet, on purpose: weak evidence says the pain exists, not that anyone pays.
+  - [How it compares](https://miloscvetkovicdev.github.io/panlode/comparison.html) — against AI idea generators, validation canvases, social listening tools and spreadsheets.
+
 - [claude-code-monorepo](https://github.com/milosCvetkovicDev/claude-code-monorepo) · **[read it online](https://miloscvetkovicdev.github.io/claude-code-monorepo/)** — the real, sanitized Claude Code configuration behind that platform, written up as a 13-chapter book: 71 skills, 34 hooks, 31 agents, 172 memories, one full epic walkthrough.
   - [Loops, not prompts](https://miloscvetkovicdev.github.io/claude-code-monorepo/book/02-loops-not-prompts/) — six primitives mapped to the concrete tools that enforce them.
   - [An epic, start to finish](https://miloscvetkovicdev.github.io/claude-code-monorepo/book/11-an-epic-start-to-finish/) — one initiative from PRD to verified-green, including the pilot that found three defects in its own test baseline.
